@@ -1,0 +1,17 @@
+{
+  "name": "01-missing-from-lock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm ci --only=production && npm ls prettier"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^3.3.2",
+    "prettier": "^1.18.2"
+  },
+  "devDependencies": {
+  }
+}
